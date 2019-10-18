@@ -6,6 +6,8 @@ Created on Sun Sep 29 18:29:27 2019
 """
 import numpy as np
 
+values = {"GAP": -2, "MISSMATCH": -1, "MATCH":1}
+
 def compare(a, b):
     if(a == b):
         return 1
