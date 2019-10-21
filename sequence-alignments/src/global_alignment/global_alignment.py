@@ -21,9 +21,6 @@ class NeedlemanWunsch:
     def getSequenceT(self):
         return self.sequenceT
     
-    def getPenalty(self):
-        return self.penalty
-    
     def getMatrix(self):
         return self.matrix
         
@@ -32,10 +29,7 @@ class NeedlemanWunsch:
     
     def setSequenceT(self, sequenceT):
         self.sequenceT = sequenceT
-    
-    def setPenalty(self, penalty):
-        self.penalty = penalty
-    
+  
     def setMatrix(self, matrix):
         self.matrix = matrix
     
