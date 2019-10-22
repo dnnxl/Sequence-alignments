@@ -18,9 +18,9 @@ RNA_To_DNA = {"A":"A", "U": "T", "C":"C", "G":"G"}
 
 def compare(a, b):
     if(a == b):
-        return 1
+        return values["MATCH"]
     else:
-        return -1
+        return values["MISSMATCH"]
     
 # Description:    
 # Input:
